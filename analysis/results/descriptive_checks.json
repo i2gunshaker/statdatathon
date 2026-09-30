@@ -59,6 +59,108 @@
       "satisfied_8_10_share_among_scale_answers": 0.45510991777143817,
       "note": "Unweighted synthetic respondent answers. 89 is not a score. Ordinal-scale means are shown only to demonstrate the coding pitfall."
     },
+    "housing_and_satisfaction": {
+      "matched_households_before_scale_filter": 11674,
+      "valid_paired_households": 11662,
+      "area_quartile_edges": [
+        10.0,
+        33.0,
+        44.0,
+        60.0,
+        235.0
+      ],
+      "quartiles": [
+        {
+          "quartile": 1,
+          "area_min": 10.0,
+          "area_max": 33.0,
+          "households": 3018,
+          "score_median": 7.0,
+          "share_score_8_10": 0.388336646785951
+        },
+        {
+          "quartile": 2,
+          "area_min": 34.0,
+          "area_max": 44.0,
+          "households": 2975,
+          "score_median": 7.0,
+          "share_score_8_10": 0.43865546218487395
+        },
+        {
+          "quartile": 3,
+          "area_min": 45.0,
+          "area_max": 60.0,
+          "households": 2895,
+          "score_median": 7.0,
+          "share_score_8_10": 0.47772020725388603
+        },
+        {
+          "quartile": 4,
+          "area_min": 61.0,
+          "area_max": 235.0,
+          "households": 2774,
+          "score_median": 8.0,
+          "share_score_8_10": 0.5385724585436193
+        }
+      ],
+      "by_place": [
+        {
+          "place_code": "1",
+          "quartile": 1,
+          "households": 2300,
+          "share_score_8_10": 0.3726086956521739
+        },
+        {
+          "place_code": "1",
+          "quartile": 2,
+          "households": 1681,
+          "share_score_8_10": 0.4283164782867341
+        },
+        {
+          "place_code": "1",
+          "quartile": 3,
+          "households": 1386,
+          "share_score_8_10": 0.44733044733044736
+        },
+        {
+          "place_code": "1",
+          "quartile": 4,
+          "households": 985,
+          "share_score_8_10": 0.467005076142132
+        },
+        {
+          "place_code": "2",
+          "quartile": 1,
+          "households": 718,
+          "share_score_8_10": 0.4387186629526462
+        },
+        {
+          "place_code": "2",
+          "quartile": 2,
+          "households": 1294,
+          "share_score_8_10": 0.4520865533230294
+        },
+        {
+          "place_code": "2",
+          "quartile": 3,
+          "households": 1509,
+          "share_score_8_10": 0.5056328694499669
+        },
+        {
+          "place_code": "2",
+          "quartile": 4,
+          "households": 1789,
+          "share_score_8_10": 0.577976523197317
+        }
+      ],
+      "area_above_total_in_pairs": 44,
+      "plausible_area_households": 11618,
+      "plausible_area_extreme_shares": [
+        0.38850116317713523,
+        0.5383775918515824
+      ],
+      "note": "D006 and D002 linked one-to-one by 2024 household NOMER; K from D008 is consistent within household. Shares are unweighted descriptive results for synthetic data, not causal or population estimates."
+    },
     "many_to_many_join": {
       "left_rows": 269130,
       "right_rows": 65466,
@@ -508,5 +610,5 @@
       "sha256": "5e3361ac153f2935f6f039564394fdc4625a92b72937ec4912e070fe0ae39ccb"
     }
   },
-  "elapsed_seconds": 1.3584613800048828
+  "elapsed_seconds": 2.312999725341797
 }

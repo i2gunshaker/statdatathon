@@ -91,6 +91,52 @@ def main():
             "note": "Unweighted synthetic respondent answers. 89 is not a score. Ordinal-scale means are shown only to demonstrate the coding pitfall.",
         }
 
+        place = roster[["NOMER", "K"]].drop_duplicates()
+        assert not place.NOMER.duplicated().any()
+        paired = dwelling[["NOMER", "J_PL", "OB_PL"]].merge(
+            subject[["NOMER", "GR1"]], on="NOMER", validate="one_to_one"
+        ).merge(place, on="NOMER", validate="one_to_one")
+        matched_households = len(paired)
+        paired["area"] = number(paired.J_PL)
+        paired["total_area"] = number(paired.OB_PL)
+        paired["score"] = number(paired.GR1)
+        paired = paired.loc[paired.area.notna() & paired.score.between(1, 10)].copy()
+        paired["area_quartile"], edges = pd.qcut(
+            paired.area, 4, labels=[1, 2, 3, 4], retbins=True
+        )
+        quartiles = []
+        for quartile, group in paired.groupby("area_quartile", observed=True):
+            quartiles.append({
+                "quartile": int(quartile), "area_min": float(group.area.min()),
+                "area_max": float(group.area.max()), "households": len(group),
+                "score_median": float(group.score.median()),
+                "share_score_8_10": float(group.score.ge(8).mean()),
+            })
+        by_place = []
+        for (place_code, quartile), group in paired.groupby(["K", "area_quartile"], observed=True):
+            by_place.append({
+                "place_code": place_code, "quartile": int(quartile),
+                "households": len(group),
+                "share_score_8_10": float(group.score.ge(8).mean()),
+            })
+        plausible = paired.loc[paired.area.le(paired.total_area)].copy()
+        plausible["area_quartile"] = pd.qcut(plausible.area, 4, labels=[1, 2, 3, 4])
+        result["cases"]["housing_and_satisfaction"] = {
+            "matched_households_before_scale_filter": matched_households,
+            "valid_paired_households": len(paired),
+            "area_quartile_edges": [float(edge) for edge in edges],
+            "quartiles": quartiles,
+            "by_place": by_place,
+            "area_above_total_in_pairs": int(paired.area.gt(paired.total_area).sum()),
+            "plausible_area_households": len(plausible),
+            "plausible_area_extreme_shares": [
+                float(group.score.ge(8).mean())
+                for quartile, group in plausible.groupby("area_quartile", observed=True)
+                if int(quartile) in (1, 4)
+            ],
+            "note": "D006 and D002 linked one-to-one by 2024 household NOMER; K from D008 is consistent within household. Shares are unweighted descriptive results for synthetic data, not causal or population estimates.",
+        }
+
         purchases = read("d004/2024/1kv/kv_vopr1.csv", ["NOMER", "KODNU", "STOIMK"])
         utilities = read("d004/2024/1kv/kv_vopr2.csv", ["NOMER", "KODNU", "STOIMK"])
         nr = utilities.groupby("NOMER").size()
