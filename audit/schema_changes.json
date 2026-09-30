@@ -1,0 +1,580 @@
+[
+  {
+    "family": "1t_god",
+    "from": "1t_god/2021/2021_1t_god.csv",
+    "to": "1t_god/2022/2022_1t_god.csv",
+    "added": [
+      "RMONTH",
+      "RYEAR"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "1t_god",
+    "from": "1t_god/2022/2022_1t_god.csv",
+    "to": "1t_god/2023/2023_1t_god.csv",
+    "added": [
+      "SPTM1"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "1t_god",
+    "from": "1t_god/2023/2023_1t_god.csv",
+    "to": "1t_god/2024/sr_1t_god_12_2024.csv",
+    "added": [
+      "AKT",
+      "GSGTPE",
+      "KATO1",
+      "KFS",
+      "KOPF",
+      "KPOP",
+      "KRP",
+      "KSE",
+      "OKED1",
+      "OKED2",
+      "SPTM",
+      "SPVD",
+      "VAL_NUM"
+    ],
+    "removed": [
+      "GR1",
+      "RMONTH"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2021/1kv/1kv2021.csv",
+    "to": "1t_kv/2021/2kv/2kv2021.csv",
+    "added": [],
+    "removed": [],
+    "order_only": true
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2021/4kv/4kv2021.csv",
+    "to": "1t_kv/2022/1kv/1kv2022.csv",
+    "added": [
+      "RMONTH",
+      "RYEAR",
+      "VAL_NUM"
+    ],
+    "removed": [
+      "GR1"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2022/1kv/1kv2022.csv",
+    "to": "1t_kv/2022/2kv/2kv2022.csv",
+    "added": [],
+    "removed": [],
+    "order_only": true
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2022/3kv/3kv2022.csv",
+    "to": "1t_kv/2022/4kv/4kv2022.csv",
+    "added": [],
+    "removed": [],
+    "order_only": true
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2022/4kv/4kv2022.csv",
+    "to": "1t_kv/2023/1kv/1kv2023.csv",
+    "added": [
+      "GR1"
+    ],
+    "removed": [
+      "VAL_NUM"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2023/3kv/3kv2023.csv",
+    "to": "1t_kv/2023/4kv/4kv2023.csv",
+    "added": [
+      "KATO1",
+      "KFS",
+      "KOPF",
+      "KRP",
+      "KSE",
+      "OKED1",
+      "SPTM1",
+      "SPVD"
+    ],
+    "removed": [
+      "KATO",
+      "OKED"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "1t_kv",
+    "from": "1t_kv/2023/4kv/4kv2023.csv",
+    "to": "1t_kv/2024/1kv/1t_kv_03_2024.csv",
+    "added": [
+      "VAL_NUM"
+    ],
+    "removed": [
+      "GR1",
+      "KFS",
+      "KOPF",
+      "KRP",
+      "KSE",
+      "SPVD",
+      "SPVRP"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "2t",
+    "from": "2t/2021/2_t_oplata_truda_2021.csv",
+    "to": "2t/2022/2_t_oplata_truda_2022.csv",
+    "added": [
+      "RYEAR",
+      "SPPN",
+      "SPPN1"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "2t",
+    "from": "2t/2022/2_t_oplata_truda_2022.csv",
+    "to": "2t/2023/2_t_oplata_truda_2023.csv",
+    "added": [],
+    "removed": [],
+    "order_only": true
+  },
+  {
+    "family": "2t",
+    "from": "2t/2023/2_t_oplata_truda_2023.csv",
+    "to": "2t/2024/sr_2t_ot_god_04_2024_parol_2025.csv",
+    "added": [
+      "GSGTPE",
+      "KATO1",
+      "OKED1",
+      "RMONTH",
+      "SPTM",
+      "SPVD"
+    ],
+    "removed": [
+      "KATO",
+      "OKED"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d002/ocenka",
+    "from": "d002/2021/ocenka.csv",
+    "to": "d002/2022/ocenka.csv",
+    "added": [
+      "GR316_1",
+      "GR316_2",
+      "GR316_3",
+      "GR316_4",
+      "GR316_5",
+      "GR316_6",
+      "GR318_1",
+      "GR318_2",
+      "GR318_3",
+      "GR318_4",
+      "GR318_5",
+      "GR318_6",
+      "GR318_7",
+      "GR318_8",
+      "GR318_9",
+      "GR319",
+      "GR31_4",
+      "GR320_1",
+      "GR320_10",
+      "GR320_2",
+      "GR320_3",
+      "GR320_4",
+      "GR320_5",
+      "GR320_6",
+      "GR320_7",
+      "GR320_8",
+      "GR320_9"
+    ],
+    "removed": [
+      "GR316",
+      "GR318",
+      "GR319_1",
+      "GR319_10",
+      "GR319_2",
+      "GR319_3",
+      "GR319_4",
+      "GR319_5",
+      "GR319_6",
+      "GR319_7",
+      "GR319_8",
+      "GR319_9"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d002/ocenka",
+    "from": "d002/2022/ocenka.csv",
+    "to": "d002/2023/ocenka.csv",
+    "added": [
+      "GR40",
+      "GR41",
+      "GR42_1",
+      "GR42_2",
+      "GR42_3",
+      "GR42_4",
+      "GR42_5",
+      "GR42_6",
+      "GR42_7",
+      "GR43_1",
+      "GR43_2",
+      "GR43_3",
+      "GR43_4",
+      "GR43_5",
+      "GR43_6",
+      "GR43_7",
+      "GR44_1",
+      "GR44_10",
+      "GR44_11",
+      "GR44_12",
+      "GR44_13",
+      "GR44_14",
+      "GR44_2",
+      "GR44_3",
+      "GR44_4",
+      "GR44_5",
+      "GR44_6",
+      "GR44_7",
+      "GR44_8",
+      "GR44_9",
+      "GR45_1",
+      "GR45_10",
+      "GR45_11",
+      "GR45_12",
+      "GR45_13",
+      "GR45_14",
+      "GR45_2",
+      "GR45_3",
+      "GR45_4",
+      "GR45_5",
+      "GR45_6",
+      "GR45_7",
+      "GR45_8",
+      "GR45_9",
+      "GR46",
+      "KVINT"
+    ],
+    "removed": [
+      "GR1",
+      "GR10",
+      "GR11",
+      "GR2",
+      "GR3",
+      "GR4",
+      "GR5",
+      "GR6",
+      "GR7",
+      "GR8",
+      "GR9"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d002/ocenka",
+    "from": "d002/2023/ocenka.csv",
+    "to": "d002/2024/ocenka.csv",
+    "added": [],
+    "removed": [
+      "KVINT"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d002/subject",
+    "from": "d002/2021/subject.csv",
+    "to": "d002/2022/subject.csv",
+    "added": [
+      "GR61",
+      "GR62",
+      "GR63",
+      "GR8",
+      "ZT"
+    ],
+    "removed": [
+      "GR153",
+      "GR163",
+      "GR6",
+      "GR81",
+      "GR82",
+      "GR83",
+      "GR84",
+      "GR85",
+      "GR86"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d002/subject",
+    "from": "d002/2022/subject.csv",
+    "to": "d002/2023/subject.csv",
+    "added": [
+      "GR10",
+      "GR14_1",
+      "GR14_2",
+      "GR15_1",
+      "GR15_2",
+      "GR16_1",
+      "GR16_2",
+      "GR16_3",
+      "GR16_4",
+      "GR17_1",
+      "GR17_2",
+      "GR17_3",
+      "GR17_4",
+      "GR18_1",
+      "GR18_2",
+      "GR18_3",
+      "GR18_4",
+      "GR18_5",
+      "GR18_6",
+      "GR19",
+      "GR210",
+      "GR211",
+      "GR212",
+      "GR213",
+      "GR214",
+      "GR22_1",
+      "GR22_10",
+      "GR22_11",
+      "GR22_12",
+      "GR22_13",
+      "GR22_14",
+      "GR22_2",
+      "GR22_3",
+      "GR22_4",
+      "GR22_5",
+      "GR22_6",
+      "GR22_7",
+      "GR22_8",
+      "GR22_9",
+      "GR23",
+      "GR24",
+      "GR25",
+      "GR26",
+      "GR27",
+      "GR28_1",
+      "GR28_2",
+      "GR28_3",
+      "GR28_4",
+      "GR28_5",
+      "GR29",
+      "GR6_1",
+      "GR6_2",
+      "GR6_3",
+      "GR9_1",
+      "GR9_2",
+      "GR9_3"
+    ],
+    "removed": [
+      "GR101",
+      "GR102",
+      "GR103",
+      "GR14",
+      "GR151",
+      "GR152",
+      "GR161",
+      "GR162",
+      "GR171",
+      "GR172",
+      "GR173",
+      "GR174",
+      "GR181",
+      "GR182",
+      "GR183",
+      "GR184",
+      "GR191",
+      "GR192",
+      "GR193",
+      "GR194",
+      "GR195",
+      "GR196",
+      "GR201",
+      "GR202",
+      "GR22",
+      "GR61",
+      "GR62",
+      "GR63",
+      "GR9"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr1",
+    "from": "d004/2022/2kv/kv_vopr1.csv",
+    "to": "d004/2022/3kv/kv_vopr1.csv",
+    "added": [],
+    "removed": [
+      "PRIZ"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr1",
+    "from": "d004/2022/3kv/kv_vopr1.csv",
+    "to": "d004/2022/4kv/kv_vopr1.csv",
+    "added": [
+      "PRIZ"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr1",
+    "from": "d004/2022/4kv/kv_vopr1.csv",
+    "to": "d004/2023/1kv/kv_vopr1.csv",
+    "added": [
+      "MESTPOK"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr1",
+    "from": "d004/2023/3kv/kv_vopr1.csv",
+    "to": "d004/2023/4kv/kv_vopr1.csv",
+    "added": [],
+    "removed": [
+      "PRIZ"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr1",
+    "from": "d004/2023/4kv/kv_vopr1.csv",
+    "to": "d004/2024/1kv/kv_vopr1.csv",
+    "added": [
+      "PRIZ"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr10",
+    "from": "d004/2021/4kv/kv_vopr10.csv",
+    "to": "d004/2022/1kv/kv_vopr10.csv",
+    "added": [],
+    "removed": [
+      "NOMVNEW"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr10",
+    "from": "d004/2023/3kv/kv_vopr10.csv",
+    "to": "d004/2023/4kv/kv_vopr10.csv",
+    "added": [
+      "NOMVNEW"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr12",
+    "from": "d004/2023/3kv/kv_vopr12.csv",
+    "to": "d004/2023/4kv/kv_vopr12.csv",
+    "added": [
+      "GR1",
+      "NOMOTV",
+      "NOMVOPR"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr6",
+    "from": "d004/2023/3kv/kv_vopr6.csv",
+    "to": "d004/2023/4kv/kv_vopr6.csv",
+    "added": [],
+    "removed": [
+      "NOMOTV"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr6",
+    "from": "d004/2023/4kv/kv_vopr6.csv",
+    "to": "d004/2024/1kv/kv_vopr6.csv",
+    "added": [
+      "NOMOTV"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr9",
+    "from": "d004/2021/4kv/kv_vopr9.csv",
+    "to": "d004/2022/1kv/kv_vopr9.csv",
+    "added": [],
+    "removed": [
+      "NOMVNEW"
+    ],
+    "order_only": false
+  },
+  {
+    "family": "d004/kv_vopr9",
+    "from": "d004/2023/3kv/kv_vopr9.csv",
+    "to": "d004/2023/4kv/kv_vopr9.csv",
+    "added": [
+      "NOMVNEW"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d008",
+    "from": "d008/2021/kontr_k.csv",
+    "to": "d008/2022/kontr_k.csv",
+    "added": [
+      "GOD_ROJD",
+      "MES_ROJD"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "d008",
+    "from": "d008/2023/kontr_k.csv",
+    "to": "d008/2024/kontr_k.csv",
+    "added": [
+      "FIZ",
+      "FIZCH",
+      "FIZM",
+      "FIZMIN"
+    ],
+    "removed": [],
+    "order_only": false
+  },
+  {
+    "family": "t001",
+    "from": "t001/2021/2021.csv",
+    "to": "t001/2022/baza.csv",
+    "added": [
+      "PRICH_ZANV",
+      "kv",
+      "mes"
+    ],
+    "removed": [
+      "DH_PROZHIV_5",
+      "ORB_CHISRB"
+    ],
+    "order_only": false
+  }
+]

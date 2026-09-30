@@ -1,0 +1,5 @@
+# Preserve saved evidence byte-for-byte, including original line endings.
+audit/*.csv -text linguist-generated=true
+audit/*.json -text linguist-generated=true
+audit/DATA_DICTIONARY.md linguist-generated=true
+analysis/results/** -text linguist-generated=true

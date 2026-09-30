@@ -1,0 +1,37 @@
+# Organizer microdata: obtain separately and keep unchanged.
+/synthetic_microdata_2021-2024_20260921.zip
+/synthetic_microdata_2021-2024_20260921.tar
+/synthetic_microdata_2021-2024_20260921/
+/synthetic_microdata_2021-2024_20260921 2/
+
+# Local source materials and archived work outside the September 30 scope.
+/audio1476525382.m4a
+/Каталог открытых данных (1).docx
+/.local_archive/
+
+# Regenerable intermediate files; final profiles are kept as CSV.
+/audit/documents/
+/audit/documents.json
+/audit/documents_index.csv
+/audit/file_inventory.csv
+/audit/column_profiles.json
+/audit/table_profiles.json
+/audit/relationship_results.json
+
+# Credentials and machine-specific files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+._*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+/tmp/

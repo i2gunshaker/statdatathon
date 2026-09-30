@@ -1,0 +1,127 @@
+path,column,reference_year,nonnull_rows,unmatched_rows,unmatched_codes,valid_codes_count
+d004/2021/1kv/kv_vopr1.csv,KODNU,2021,268143,0,[],404
+d004/2021/1kv/kv_vopr10.csv,KODNU,2021,7653,386,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2021/1kv/kv_vopr12.csv,KODNU,2021,4269,0,[],6
+d004/2021/1kv/kv_vopr2.csv,KODNU,2021,63983,0,[],47
+d004/2021/1kv/kv_vopr3.csv,KODNU,2021,26787,0,[],24
+d004/2021/1kv/kv_vopr4.csv,KODNU,2021,1737,0,[],24
+d004/2021/1kv/kv_vopr5.csv,KODNU,2021,5270,0,[],26
+d004/2021/1kv/kv_vopr6.csv,KODNU,2021,36743,0,[],121
+d004/2021/1kv/kv_vopr7.csv,KODNU,2021,14330,0,[],34
+d004/2021/1kv/kv_vopr9.csv,KODNU,2021,6401,0,[],101
+d004/2021/2kv/kv_vopr1.csv,KODNU,2021,274850,0,[],404
+d004/2021/2kv/kv_vopr10.csv,KODNU,2021,9732,369,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2021/2kv/kv_vopr12.csv,KODNU,2021,3877,0,[],6
+d004/2021/2kv/kv_vopr2.csv,KODNU,2021,62989,0,[],47
+d004/2021/2kv/kv_vopr3.csv,KODNU,2021,26496,0,[],24
+d004/2021/2kv/kv_vopr4.csv,KODNU,2021,1595,0,[],24
+d004/2021/2kv/kv_vopr5.csv,KODNU,2021,5032,0,[],26
+d004/2021/2kv/kv_vopr6.csv,KODNU,2021,38414,0,[],121
+d004/2021/2kv/kv_vopr7.csv,KODNU,2021,14451,0,[],34
+d004/2021/2kv/kv_vopr9.csv,KODNU,2021,15004,0,[],101
+d004/2021/3kv/kv_vopr1.csv,KODNU,2021,291409,0,[],404
+d004/2021/3kv/kv_vopr10.csv,KODNU,2021,16047,365,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2021/3kv/kv_vopr12.csv,KODNU,2021,3909,0,[],6
+d004/2021/3kv/kv_vopr2.csv,KODNU,2021,59264,0,[],47
+d004/2021/3kv/kv_vopr3.csv,KODNU,2021,26224,0,[],24
+d004/2021/3kv/kv_vopr4.csv,KODNU,2021,1651,0,[],24
+d004/2021/3kv/kv_vopr5.csv,KODNU,2021,5062,0,[],26
+d004/2021/3kv/kv_vopr6.csv,KODNU,2021,41746,0,[],121
+d004/2021/3kv/kv_vopr7.csv,KODNU,2021,14734,0,[],34
+d004/2021/3kv/kv_vopr9.csv,KODNU,2021,24773,0,[],101
+d004/2021/4kv/kv_vopr1.csv,KODNU,2021,258042,0,[],404
+d004/2021/4kv/kv_vopr10.csv,KODNU,2021,8677,490,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2021/4kv/kv_vopr12.csv,KODNU,2021,3579,0,[],6
+d004/2021/4kv/kv_vopr2.csv,KODNU,2021,64216,0,[],47
+d004/2021/4kv/kv_vopr3.csv,KODNU,2021,26251,0,[],24
+d004/2021/4kv/kv_vopr4.csv,KODNU,2021,1897,0,[],24
+d004/2021/4kv/kv_vopr5.csv,KODNU,2021,4577,0,[],26
+d004/2021/4kv/kv_vopr6.csv,KODNU,2021,37212,0,[],121
+d004/2021/4kv/kv_vopr7.csv,KODNU,2021,14110,0,[],34
+d004/2021/4kv/kv_vopr9.csv,KODNU,2021,8289,0,[],101
+d004/2022/1kv/kv_vopr1.csv,KODNU,2022,270907,0,[],404
+d004/2022/1kv/kv_vopr10.csv,KODNU,2022,7956,367,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2022/1kv/kv_vopr12.csv,KODNU,2022,4481,0,[],6
+d004/2022/1kv/kv_vopr2.csv,KODNU,2022,63392,0,[],47
+d004/2022/1kv/kv_vopr3.csv,KODNU,2022,27068,0,[],24
+d004/2022/1kv/kv_vopr4.csv,KODNU,2022,2583,0,[],24
+d004/2022/1kv/kv_vopr5.csv,KODNU,2022,4361,0,[],26
+d004/2022/1kv/kv_vopr6.csv,KODNU,2022,39345,0,[],121
+d004/2022/1kv/kv_vopr7.csv,KODNU,2022,15010,0,[],34
+d004/2022/1kv/kv_vopr9.csv,KODNU,2022,6756,0,[],101
+d004/2022/2kv/kv_vopr1.csv,KODNU,2022,274264,0,[],404
+d004/2022/2kv/kv_vopr10.csv,KODNU,2022,9821,401,"[""4431"", ""4439"", ""444"", ""445"", ""45""]",101
+d004/2022/2kv/kv_vopr12.csv,KODNU,2022,4138,0,[],6
+d004/2022/2kv/kv_vopr2.csv,KODNU,2022,61482,0,[],47
+d004/2022/2kv/kv_vopr3.csv,KODNU,2022,27272,0,[],24
+d004/2022/2kv/kv_vopr4.csv,KODNU,2022,2190,0,[],24
+d004/2022/2kv/kv_vopr5.csv,KODNU,2022,5146,0,[],26
+d004/2022/2kv/kv_vopr6.csv,KODNU,2022,40721,0,[],121
+d004/2022/2kv/kv_vopr7.csv,KODNU,2022,15382,0,[],34
+d004/2022/2kv/kv_vopr9.csv,KODNU,2022,14622,0,[],101
+d004/2022/3kv/kv_vopr1.csv,KODNU,2022,297560,0,[],404
+d004/2022/3kv/kv_vopr10.csv,KODNU,2022,15783,411,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2022/3kv/kv_vopr12.csv,KODNU,2022,4014,0,[],6
+d004/2022/3kv/kv_vopr2.csv,KODNU,2022,58844,0,[],47
+d004/2022/3kv/kv_vopr3.csv,KODNU,2022,26662,0,[],24
+d004/2022/3kv/kv_vopr4.csv,KODNU,2022,2163,0,[],24
+d004/2022/3kv/kv_vopr5.csv,KODNU,2022,4693,0,[],26
+d004/2022/3kv/kv_vopr6.csv,KODNU,2022,46226,0,[],121
+d004/2022/3kv/kv_vopr7.csv,KODNU,2022,15607,0,[],34
+d004/2022/3kv/kv_vopr9.csv,KODNU,2022,24608,0,[],101
+d004/2022/4kv/kv_vopr1.csv,KODNU,2022,262008,0,[],404
+d004/2022/4kv/kv_vopr10.csv,KODNU,2022,8501,485,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2022/4kv/kv_vopr12.csv,KODNU,2022,3880,0,[],6
+d004/2022/4kv/kv_vopr2.csv,KODNU,2022,63636,0,[],47
+d004/2022/4kv/kv_vopr3.csv,KODNU,2022,26760,0,[],24
+d004/2022/4kv/kv_vopr4.csv,KODNU,2022,2369,0,[],24
+d004/2022/4kv/kv_vopr5.csv,KODNU,2022,4350,0,[],26
+d004/2022/4kv/kv_vopr6.csv,KODNU,2022,40246,0,[],121
+d004/2022/4kv/kv_vopr7.csv,KODNU,2022,15263,0,[],34
+d004/2022/4kv/kv_vopr9.csv,KODNU,2022,8035,0,[],101
+d004/2023/1kv/kv_vopr1.csv,KODNU,2023,267827,0,[],404
+d004/2023/1kv/kv_vopr10.csv,KODNU,2023,7556,406,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2023/1kv/kv_vopr12.csv,KODNU,2023,4457,0,[],6
+d004/2023/1kv/kv_vopr2.csv,KODNU,2023,64324,0,[],20
+d004/2023/1kv/kv_vopr3.csv,KODNU,2023,27403,0,[],11
+d004/2023/1kv/kv_vopr4.csv,KODNU,2023,3018,0,[],11
+d004/2023/1kv/kv_vopr5.csv,KODNU,2023,4398,0,[],12
+d004/2023/1kv/kv_vopr6.csv,KODNU,2023,42121,0,[],106
+d004/2023/1kv/kv_vopr7.csv,KODNU,2023,15573,0,[],16
+d004/2023/1kv/kv_vopr9.csv,KODNU,2023,6274,0,[],101
+d004/2023/2kv/kv_vopr1.csv,KODNU,2023,267699,0,[],404
+d004/2023/2kv/kv_vopr10.csv,KODNU,2023,9407,427,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2023/2kv/kv_vopr12.csv,KODNU,2023,4406,0,[],6
+d004/2023/2kv/kv_vopr2.csv,KODNU,2023,62744,0,[],20
+d004/2023/2kv/kv_vopr3.csv,KODNU,2023,26927,0,[],11
+d004/2023/2kv/kv_vopr4.csv,KODNU,2023,2611,0,[],11
+d004/2023/2kv/kv_vopr5.csv,KODNU,2023,4554,0,[],12
+d004/2023/2kv/kv_vopr6.csv,KODNU,2023,42588,0,[],106
+d004/2023/2kv/kv_vopr7.csv,KODNU,2023,15848,0,[],16
+d004/2023/2kv/kv_vopr9.csv,KODNU,2023,12955,0,[],101
+d004/2023/3kv/kv_vopr1.csv,KODNU,2023,298072,0,[],404
+d004/2023/3kv/kv_vopr10.csv,KODNU,2023,16094,466,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2023/3kv/kv_vopr12.csv,KODNU,2023,4500,0,[],6
+d004/2023/3kv/kv_vopr2.csv,KODNU,2023,58679,0,[],20
+d004/2023/3kv/kv_vopr3.csv,KODNU,2023,26506,0,[],11
+d004/2023/3kv/kv_vopr4.csv,KODNU,2023,2540,0,[],11
+d004/2023/3kv/kv_vopr5.csv,KODNU,2023,4792,0,[],12
+d004/2023/3kv/kv_vopr6.csv,KODNU,2023,48622,0,[],106
+d004/2023/3kv/kv_vopr7.csv,KODNU,2023,16583,0,[],16
+d004/2023/3kv/kv_vopr9.csv,KODNU,2023,22392,0,[],101
+d004/2023/4kv/kv_vopr1.csv,KODNU,2023,265988,0,[],404
+d004/2023/4kv/kv_vopr10.csv,KODNU,2023,9078,492,"[""4431"", ""4439"", ""444"", ""445"", ""446"", ""45""]",101
+d004/2023/4kv/kv_vopr12.csv,KODNU,2023,4226,0,[],6
+d004/2023/4kv/kv_vopr2.csv,KODNU,2023,63803,0,[],20
+d004/2023/4kv/kv_vopr3.csv,KODNU,2023,26110,0,[],11
+d004/2023/4kv/kv_vopr4.csv,KODNU,2023,2585,0,[],11
+d004/2023/4kv/kv_vopr5.csv,KODNU,2023,4325,0,[],12
+d004/2023/4kv/kv_vopr6.csv,KODNU,2023,42837,0,[],106
+d004/2023/4kv/kv_vopr7.csv,KODNU,2023,16154,0,[],16
+d004/2023/4kv/kv_vopr9.csv,KODNU,2023,8168,0,[],101
+2t/2021/2_t_oplata_truda_2021.csv,GSDPRS,2021,1850610,0,[],11901
+2t/2021/2_t_oplata_truda_2021.csv,SUO,2021,1850544,0,[],22
+2t/2022/2_t_oplata_truda_2022.csv,GSDPRS,2022,1678347,0,[],11901
+2t/2022/2_t_oplata_truda_2022.csv,SUO,2022,1678196,0,[],22
+2t/2023/2_t_oplata_truda_2023.csv,GSDPRS,2023,1715834,0,[],11901
+2t/2023/2_t_oplata_truda_2023.csv,SUO,2023,1715746,0,[],22
